@@ -11,19 +11,17 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 <img width="219" alt="auxiliar admi" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-textbook-store/assets/129327473/f50b0d00-eb3b-400d-b264-f9d5b73fb09a">
 
 
-Nome: Laura Martins
+**Nome:** Laura Martins
 
-Nome: Laura Martins
+**Idade:** 33 anos
 
-Idade: 33 anos
+**Filiação:** João Martins Oliveira - 12 anos
 
-Filiação: João Martins Oliveira - 12 anos
+**Ocupação:** Auxiliar Administrativa 
 
-Ocupação: Auxiliar Administrativa 
+**Motivações:** Após conseguir uma bolsa para seu filho em uma escola particular, está em busca de livros usados por serem mais baratos.
 
-Motivações: Após conseguir uma bolsa para seu filho em uma escola particular, está em busca de livros usados por serem mais baratos.
-
-Frustrações: Seu filho acabou de ingressar na nova escola e ainda não possuem contatos com outros pais para conseguirem livros usados.
+**Frustrações:** Seu filho acabou de ingressar na nova escola e ainda não possuem contatos com outros pais para conseguirem livros usados.
 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
