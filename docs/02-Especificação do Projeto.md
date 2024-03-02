@@ -23,7 +23,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 **Frustrações:** Seu filho acabou de ingressar na nova escola e ainda não possuem contatos com outros pais para conseguirem livros usados.
 
-<img width="272" alt="eco" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-textbook-store/assets/129327473/d0965289-f368-4eec-8d09-43574f6fabdb">
+<img width="250" alt="eco" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-textbook-store/assets/129327473/937526ba-2c79-49f5-ab01-ace1fbc685cf">
 
 
 **Nome:** Julio Pereira
