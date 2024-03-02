@@ -23,6 +23,21 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 **Frustrações:** Seu filho acabou de ingressar na nova escola e ainda não possuem contatos com outros pais para conseguirem livros usados.
 
+<img width="272" alt="eco" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-textbook-store/assets/129327473/d0965289-f368-4eec-8d09-43574f6fabdb">
+
+
+**Nome:** Julio Pereira
+
+**Idade:** 30 anos
+
+**Filiação:** Alice Pereira - 12 anos
+
+**Ocupação:** Ecologista 
+
+**Motivações:** Engajado nas causas ambientais, acredita que a reutilização de livros contribui com a diminuição de lixo gerado.
+
+**Frustrações:** No colégio em que sua filha estuda não possui uma feira de livros usados.
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
