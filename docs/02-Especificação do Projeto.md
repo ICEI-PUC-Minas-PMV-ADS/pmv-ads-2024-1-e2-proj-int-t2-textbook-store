@@ -38,6 +38,20 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 **Frustrações:** No colégio em que sua filha estuda não possui uma feira de livros usados.
 
+<img width="247" alt="adv" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-textbook-store/assets/129327473/7721d3ae-2f71-4a0a-b824-d1d8e0f2661f">
+
+
+**Nome:** Claudia Ribeiro
+
+**Idade:** 38 anos
+
+**Filiação:** Beatriz Ribeiro  - 15 anos
+
+**Ocupação:** Advogada 
+
+**Motivações:** Vinda de uma família humilde, busca sempre uma maneira de ajudar os mais necessitados.
+
+**Frustrações:** Possui uma vida muito atarefada com o trabalho e não encontra tempo para se encontrar com outros pais.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
