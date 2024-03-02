@@ -23,6 +23,8 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 **Frustrações:** Seu filho acabou de ingressar na nova escola e ainda não possuem contatos com outros pais para conseguirem livros usados.
 
+
+
 <img width="250" alt="eco" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-textbook-store/assets/129327473/937526ba-2c79-49f5-ab01-ace1fbc685cf">
 
 
@@ -38,6 +40,8 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 **Frustrações:** No colégio em que sua filha estuda não possui uma feira de livros usados.
 
+
+
 <img width="247" alt="adv" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-textbook-store/assets/129327473/7721d3ae-2f71-4a0a-b824-d1d8e0f2661f">
 
 
@@ -52,6 +56,24 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 **Motivações:** Vinda de uma família humilde, busca sempre uma maneira de ajudar os mais necessitados.
 
 **Frustrações:** Possui uma vida muito atarefada com o trabalho e não encontra tempo para se encontrar com outros pais.
+
+
+
+<img width="241" alt="corret" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-textbook-store/assets/129327473/51fbf481-7d31-48d9-b73d-dd8349cdf9bb">
+
+
+**Nome:** Fernando Ferreira
+
+**Idade:** 40 anos
+
+**Filiação:** Felipe Ferreira  - 17 anos
+
+**Ocupação:** Corretor 
+
+**Motivações:** Com os altos custos atuais para se manter o filho na escola, sempre busca vender e comprar livros usados.
+
+**Frustrações:** Dificuldade em encontrar livros em bom estado para seu filho.
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
