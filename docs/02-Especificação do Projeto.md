@@ -8,7 +8,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-![37CFD437-CD6E-4076-9A4B-517DD3CC8DA3_1_201_a](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-textbook-store/assets/129327473/b09918d0-c0aa-4400-9e29-860930457b1a)
+![37CFD437-CD6E-4076-9A4B-517DD3CC8DA3_1_201_a](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-textbook-store/assets/129327473/91b1665e-ead1-4ee4-8a2f-3fc0f00c65da)
 
 
 Nome: Laura Martins
