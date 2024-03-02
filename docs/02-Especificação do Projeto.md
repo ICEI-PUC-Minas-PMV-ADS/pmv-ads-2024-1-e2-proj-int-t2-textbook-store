@@ -116,8 +116,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA | 
-|RF-002| A aplicação deve emitir um relatório de tarefas realizadas no mês   | MÉDIA |
+|RF-001| O sistema deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil | ALTA | 
+|RF-002| O sistema deve permitir que o usuário cadastre e gerencie livros para venda | ALTA |
+|RF-003| O sistema deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar livros por critérios diversos | ALTA |
+|RF-004| O sistema deve ter um chat para conversação em cada livro para os usuários interagirem entre si | MÉDIA |
+|RF-005| O sistema deve permitir que o usuário avalie os livros adquiridos | BAIXA |
+|RF-006| O sistema deve permitir que o usuário avalie os vendedores para futuras vendas | BAIXA |
+|RF-007| O sistema deve possuir opção de fazer login, sendo o login endereço de e-mail | ALTA |
+|RF-008| O sistema deve permitir que o usuário recupere sua senha | ALTA |
+
 
 ### Requisitos não Funcionais
 
