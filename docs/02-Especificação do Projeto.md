@@ -8,8 +8,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-|--------------------|------------------------------------|
-|Nome| Laura Martins | 
+Nome: Laura Martins
 |Idade| 33 anos |
 |Filiação| João Martins Oliveira - 12 anos |
 |Ocupação| Auxiliar Administrativa |
