@@ -93,8 +93,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Laura Martins / Fernando Ferreira | Encontrar livros de baixo custo | Que o orçamento não ultrapasse o meu limite disponível |
+|Julio Pereira | Reutilizar livros escolares| Contribuir com o meio ambiente |
+|Claudia Ribeiro | Vender os livros usados a baixo custo | Os pais que não conseguem comprar livros novos |
+|Laura Martins / Fernando Ferreira | Vender os livros usados | Conseguir comprar os livros atuais  |
+|Laura Martins / Julio Pereira / Fernando Ferreira | Encontrar livros bem conservados | Que seu/sua filho/filha tenha mais qualidade nos estudos |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
