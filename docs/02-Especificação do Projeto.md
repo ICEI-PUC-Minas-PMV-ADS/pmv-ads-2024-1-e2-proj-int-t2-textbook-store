@@ -11,11 +11,15 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 Nome: Laura Martins
 
 Nome: Laura Martins
+
 Idade: 33 anos
+
 Filiação: João Martins Oliveira - 12 anos
+
 Ocupação: Auxiliar Administrativa 
-História: 
+
 Motivações: Após conseguir uma bolsa para seu filho em uma escola particular, está em busca de livros usados por serem mais baratos.
+
 Frustrações: Seu filho acabou de ingressar na nova escola e ainda não possuem contatos com outros pais para conseguirem livros usados.
 
 
