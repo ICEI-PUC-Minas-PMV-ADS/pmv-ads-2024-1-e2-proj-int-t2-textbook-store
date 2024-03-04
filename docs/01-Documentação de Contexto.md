@@ -1,36 +1,29 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+No cenário educacional atual, a aquisição de materiais didáticos para os estudantes representa um desafio significativo para muitas famílias, especialmente quando se trata dos livros escolares adotados pelos colégios particulares. Anualmente, pais e responsáveis enfrentam a tarefa árdua de buscar alternativas viáveis para a obtenção desses materiais, seja por meio de doações, ou através das compras de livros usados.
+
+A incessante busca por materiais didáticos a preços mais acessíveis revela uma demanda latente na sociedade por soluções que facilitem o acesso à educação de qualidade sem comprometer o equilíbrio financeiro familiar. A criação de uma aplicação que conecte pais dispostos a disponibilizar seus livros e aqueles em busca desses recursos surge como uma resposta inovadora a essa necessidade premente, promovendo não apenas a economia financeira, mas também a construção de uma comunidade educacional mais colaborativa e sustentável.
+
+Essa iniciativa visa estabelecer uma plataforma que conecte pais interessados em compartilhar seus livros escolares com aqueles que buscam esses recursos, proporcionando não apenas praticidade, mas também promovendo uma rede colaborativa que visa tornar o acesso à educação mais acessível.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Os altos custos dos livros escolares impactam diretamente a acessibilidade à educação, tornando-se uma barreira para muitas famílias. Diversos estudos, como o levantamento realizado pelo Instituto Brasileiro de Geografia e Estatística (IBGE), evidenciam a correlação entre o aumento dos gastos com material escolar e o desafio enfrentado por famílias de baixa renda para garantir a continuidade da educação de seus filhos.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Desenvolver uma aplicação web que conecte pais interessados em disponibilizar livros escolares usados aos interessados em adquiri-los, proporcionando uma alternativa econômica e sustentável para a aquisição de materiais didáticos.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+**Objetivos Específicos**
+1.	Criar um sistema de cadastro de usuários, permitindo que pais interessados em vender ou doar livros escolares possam se registrar na plataforma.
+2.	Implementar uma interface intuitiva e fácil de usar que permita aos usuários buscar livros com base em critérios como série, matéria e estado de conservação.
+3.	Estabelecer um sistema de avaliação e feedback para promover a confiança entre os usuários e garantir a qualidade das transações.
+4.	Integrar funcionalidades de mensagens para facilitar a comunicação entre vendedores e compradores, possibilitando a negociação e acordos de entrega.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Ao criar uma plataforma que facilite a compra e venda de livros usados, podemos contribuir para a redução dos custos associados à educação, promovendo um ambiente mais acessível e inclusivo. Além disso, essa iniciativa também está alinhada com práticas sustentáveis, ao incentivar a reutilização de materiais didáticos, reduzindo o impacto ambiental gerado pela produção excessiva de novos livros.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
