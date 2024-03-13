@@ -15,6 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Felipe Gomes Meca
 * Rafael Maltez de Aguiar Costa
 * Simon Cauã de Siqueira Moura
+* Nathan Vitorino Sergio Rocha
 
 
 ## Orientador
