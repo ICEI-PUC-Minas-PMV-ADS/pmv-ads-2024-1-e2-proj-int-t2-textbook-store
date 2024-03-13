@@ -178,3 +178,12 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 > - [Lucidchart](https://www.lucidchart.com/)
 > - [Astah](https://astah.net/)
 > - [Diagrams](https://app.diagrams.net/)
+
+## Backlog e Plano de Sprints
+
+O backlog e o plano de sprints podem ser consultados nos links abaixo:
+
+- [Backlog](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/851)
+- [Plano de Sprints](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-textbook-store/milestones?with_issues=no)
+
+Cada issue está associada a uma sprint através dos Milestones do Github Projects.
