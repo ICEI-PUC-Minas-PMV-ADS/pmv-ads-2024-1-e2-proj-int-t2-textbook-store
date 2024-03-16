@@ -99,9 +99,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004| O sistema deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar livros por critérios diversos. | ALTA |
 |RF-005| O sistema deve ter um chat para conversação em cada anúncio para os usuários interagirem entre si. | ALTA |
 |RF-006| O sistema deve permitir que o usuário avalie os livros adquiridos | MÉDIA |
-|RF-007| O sistema deve permitir que o usuário avalie os livros adquiridos. | MÉDIA |
-|RF-008| O sistema deve permitir que o usuário avalie o vendedor após uma compra. | MÉDIA |
-|RF-009| O sistema deve permitir que o usuário recupere sua senha. | ALTA |
+|RF-007| O sistema deve permitir que o usuário avalie o vendedor após uma compra. | MÉDIA |
+|RF-008| O sistema deve permitir que o usuário recupere sua senha. | ALTA |
 
 
 ### Requisitos não Funcionais
