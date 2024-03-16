@@ -29,8 +29,3 @@ Ao criar uma plataforma que facilite a compra e venda de livros usados, podemos 
 
 Pais e/ou responsáveis de alunos de escolas particulares e estudantes universitários que possuem livros didáticos usados para venda, e pais e/ou responsáveis que precisam adquirir livros usados para seus filhos ou estudantes universitários que desejam adquirir livros sejam por questões financeiras ou filantrópicas. 
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
