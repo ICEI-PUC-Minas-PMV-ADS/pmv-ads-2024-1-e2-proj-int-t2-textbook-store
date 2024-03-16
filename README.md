@@ -1,4 +1,4 @@
-# Loja de Livros Didáticos (a definir)
+# EducaLivros:  Facilitando o Acesso aos Livros Escolares
 
 `Análise e Desenvolvimento de Sistemas`
 
