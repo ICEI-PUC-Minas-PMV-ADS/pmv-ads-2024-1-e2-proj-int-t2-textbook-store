@@ -64,15 +64,14 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 **Nome:** Fernando Ferreira
 
-**Idade:** 40 anos
+**Idade:** 21 anos
 
-**Filiação:** Felipe Ferreira  - 17 anos
+**Ocupação:** Estudante de Engenharia e estagiário. 
 
-**Ocupação:** Corretor 
+**Motivações:** Está em sua primeira graduação e depende de sua bolsa de estágio para se manter. Precisa economizar na compra de livros didáticos e eventualmente vendê-los ao final do semestre para conseguir comprar outros.
 
-**Motivações:** Com os altos custos atuais para se manter o filho na escola, sempre busca vender e comprar livros usados.
+**Frustrações:** Dificuldade em encontrar livros didáticos usados em bom estado de conservação.
 
-**Frustrações:** Dificuldade em encontrar livros em bom estado para seu filho.
 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
@@ -97,7 +96,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Julio Pereira | Reutilizar livros escolares| Contribuir com o meio ambiente |
 |Claudia Ribeiro | Vender os livros usados a baixo custo | Os pais que não conseguem comprar livros novos |
 |Laura Martins / Fernando Ferreira | Vender os livros usados | Conseguir comprar os livros atuais  |
-|Laura Martins / Julio Pereira / Fernando Ferreira | Encontrar livros bem conservados | Que seu/sua filho/filha tenha mais qualidade nos estudos |
+|Laura Martins / Julio Pereira / Fernando Ferreira | Encontrar livros bem conservados | Que o aluno tenha mais qualidade nos estudos |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -116,14 +115,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O sistema deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil | ALTA | 
-|RF-002| O sistema deve permitir que o usuário cadastre e gerencie livros para venda | ALTA |
-|RF-003| O sistema deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar livros por critérios diversos | ALTA |
-|RF-004| O sistema deve ter um chat para conversação em cada livro para os usuários interagirem entre si | MÉDIA |
-|RF-005| O sistema deve permitir que o usuário avalie os livros adquiridos | BAIXA |
-|RF-006| O sistema deve permitir que o usuário avalie os vendedores para futuras vendas | BAIXA |
-|RF-007| O sistema deve possuir opção de fazer login, sendo o login endereço de e-mail | ALTA |
-|RF-008| O sistema deve permitir que o usuário recupere sua senha | ALTA |
+|RF-001| O sistema deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil | ALTA |
+|RF-002| O sistema deve possuir opção de fazer login, sendo o login endereço de e-mail. | ALTA |
+|RF-003| O sistema deve permitir que o usuário cadastre e gerencie livros para venda. | ALTA |
+|RF-004| O sistema deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar livros por critérios diversos. | ALTA |
+|RF-005| O sistema deve ter um chat para conversação em cada anúncio para os usuários interagirem entre si. | ALTA |
+|RF-006| O sistema deve permitir que o usuário avalie os livros adquiridos | MÉDIA |
+|RF-007| O sistema deve permitir que o usuário avalie os livros adquiridos. | MÉDIA |
+|RF-008| O sistema deve permitir que o usuário avalie o vendedor após uma compra. | MÉDIA |
+|RF-009| O sistema deve permitir que o usuário recupere sua senha. | ALTA |
 
 
 ### Requisitos não Funcionais
@@ -157,7 +157,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até 23/06/2024 |
-|02| O sistema deve ser desenvolvido utilizando a arquitetura MVC|       |
+|02| O sistema deve ser desenvolvido utilizando a arquitetura MVC|
+|03| O sistema deve ser desenvolvido utilizando-se C#|
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
@@ -169,6 +170,8 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 ## Diagrama de Casos de Uso
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos.
+
+![diagrama de caso de uso](./img/diagramaDeCasoDeUso.jpeg)
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 

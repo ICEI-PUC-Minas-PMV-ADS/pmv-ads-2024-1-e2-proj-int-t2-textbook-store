@@ -11,10 +11,10 @@ Os altos custos dos livros escolares impactam diretamente a acessibilidade à ed
 
 ## Objetivos
 
-Desenvolver uma aplicação web que conecte pais interessados em disponibilizar livros escolares usados aos interessados em adquiri-los, proporcionando uma alternativa econômica e sustentável para a aquisição de materiais didáticos.
+Desenvolver uma aplicação web que conecte interessados em disponibilizar livros escolares usados aos interessados em adquiri-los, proporcionando uma alternativa econômica e sustentável para a aquisição de materiais didáticos.
 
 **Objetivos Específicos**
-1.	Criar um sistema de cadastro de usuários, permitindo que pais interessados em vender ou doar livros escolares possam se registrar na plataforma.
+1.	Criar um sistema de cadastro de usuários, permitindo que interessados em vender ou doar livros escolares possam se registrar na plataforma.
 2.	Implementar uma interface intuitiva e fácil de usar que permita aos usuários buscar livros com base em critérios como série, matéria e estado de conservação.
 3.	Estabelecer um sistema de avaliação e feedback para promover a confiança entre os usuários e garantir a qualidade das transações.
 4.	Integrar funcionalidades de mensagens para facilitar a comunicação entre vendedores e compradores, possibilitando a negociação e acordos de entrega.
@@ -27,7 +27,7 @@ Ao criar uma plataforma que facilite a compra e venda de livros usados, podemos 
 
 ## Público-Alvo
 
-Pais e responsáveis de alunos de escolas particulares que possuem livros usados para venda, e pais e responsáveis que precisam adquirir livros usados para seus filhos, sejam por questões financeiras ou filantrópicas.
+Pais e/ou responsáveis de alunos de escolas particulares e estudantes universitários que possuem livros didáticos usados para venda, e pais e/ou responsáveis que precisam adquirir livros usados para seus filhos ou estudantes universitários que desejam adquirir livros sejam por questões financeiras ou filantrópicas. 
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
