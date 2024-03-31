@@ -58,5 +58,3 @@ As ferramentas empregadas no projeto são:
 - `Ferramenta de containerização`: Docker
 
 Pelo fato de cada membro do grupo utilizar um detrerminado sistema operacional, utilizamos dois editores de código diferentes: Visual Studio, para Windows e Visual Studio Code para MacOS e Ubuntu. Ambos possuem integração com o Sistema de Gerenciamento de Versões utilizado, no caso, git. Para comunicação assíncrona utilizamos a ferramenta de grupos do Whatsapp, por ser uma ferramente de uso comum entre todos os integrantes do grupo. Na comunicação síncrona, adotamos o Microsoft Teams como plataforma,pela simplicidade e integração com demais atividades da universidade nessa mesma plataforma. A ferramenta escolhida para a gestão do projeto foi o Github projects, pela simplicidade e integração nativa com a plataforma de repositórios adotada no projeto.
-
-
