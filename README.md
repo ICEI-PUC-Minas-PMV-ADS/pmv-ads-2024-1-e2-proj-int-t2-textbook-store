@@ -11,11 +11,10 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Ana Paula Amantea
-* Elismar Ramos 
-* Felipe Gomes Meca
-* Rafael Maltez de Aguiar Costa
-* Simon Cauã de Siqueira Moura
+* Elismar Ramos Barbosa
 * Nathan Vitorino Sergio Rocha
+* Pablo Rangel Nascimento Lima
+* Rafael Maltez de Aguiar Costa
 
 
 ## Orientador
