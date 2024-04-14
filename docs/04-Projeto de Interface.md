@@ -68,3 +68,7 @@ Abaixo podem ser visualizados os wirframes de tolas as telas previstas no sistem
 
 ![Tela - Editar Anúncio](img/wireframes/Editar%20Anuncio.png)
 
+### Tela - Chats do Usuário
+
+![Tela - Chats do Usuário](img/wireframes/Chats%20do%20usuário.png)
+
