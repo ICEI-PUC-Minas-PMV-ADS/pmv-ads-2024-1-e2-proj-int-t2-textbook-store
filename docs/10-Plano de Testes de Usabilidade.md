@@ -1,15 +1,38 @@
 # Plano de Testes de Usabilidade
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+Para realização dos testes de usabilidade do projeto Educa Livros,contaremos com a execução de testes remotos via video chamada com compartilhamento de tela.
+Os participantes serão selecionados de acordo com o perfil aderente a cada uma de nossas personas e respectivas [histórias de usuários](./02-Especificação%20do%20Projeto.md).
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+Os testes terão o formato de tarefas específicas visando a utilização do sistema para o cumprimento de cada um de seus requisitos funcionais.
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+Cada tarefa será avaliada de acordo com os seguintes critérios:
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+- Tempo total demandado do usuário para realizaçãoda tarefa;
+- Quantidade de cliques utilizados para a realização da tarefa;
+- Quantidade de desvios considerando-se o "caminho feliz" da tarefa;
+- Autorelato do usuário referente a facilidade para conclusão da tarefa(escada de 1 a 5, sendo 5 muito fácil e 1 muito difícil);
+- Feedbacks qualitativos do usuário sobre a execução da tarefa;
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+Abaixo, o registro das tarefas a serem executadas:
+
+| Tarefa  | Descrição                          | Requisito Funcional associado|
+|---------|------------------------------------|------------------------------|
+| T-01    | Cadastrar na plataforma            | RF-001                       |
+| T-02    | Efetuar login na plataforma        | RF-002                       |
+| T-03    | Cadastrar um anúncio na plataforma | RF-003                       |
+| T-04    | Editar um anuncio na plataforma    | RF-003                       |
+| T-05    | Excluir um anuncio na plataforma   | RF-003                       |
+| T-06    | Fazer uma pesquisa na plataforam   | RF-004                       |
+| T-07    | Iniciar uma conversa               | RF-005                       |
+| T-08    | Responder a uma conversa           | RF-005                       |
+| T-09    | Localizar uma conversa já iniciada | RF-005                       |
+| T-10    | Avaliar outro usuário              | RF-007                       |
+| T-11    | Recuperar a senha                  | RF-008                       |
+
+Para cada voluntário, o registro será feito no seguinte formato:
+
+| Tarefa | Tempo | Cliques | Desvios | Avaliação quantitativa | Feedbacks Qualitativos|
+|--------|-------|---------|---------|------------------------|-----------------------|
+| T-XX   | 00:00 |   X     |   X     |     1 a 5              |  feedback-transcrição |
+
+Os registros podem ser consultados no [Registro de Testes de Usabilidade](./11-Registro%20de%20Testes%20de%20Usabilidade.md)
