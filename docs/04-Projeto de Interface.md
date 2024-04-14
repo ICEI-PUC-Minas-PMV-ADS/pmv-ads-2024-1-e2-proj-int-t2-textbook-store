@@ -60,3 +60,7 @@ Abaixo podem ser visualizados os wirframes de tolas as telas previstas no sistem
 
 ![Tela de cadastrar anúncio](img/wireframes/Cadastrar%20Anuncio.png)
 
+### Tela - Detalhes do Anúncio
+
+![Tela - Detalhes do Anúncio](img/wireframes//Detalhes%20do%20anuncio.png)
+
