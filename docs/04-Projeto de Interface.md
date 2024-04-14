@@ -18,15 +18,9 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Abaixo podem ser visualizados os wirframes de tolas as telas previstas no sistema. Caso prefira, pode acessar a versão interativa através do link:
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+- [EducaLivros - Wireframe Interativo](https://www.figma.com/proto/H3OU6AnfsqjSQkUY60Dpqp/EducaLivros-Wireframe?type=design&node-id=3-72&t=m96yDdyi525sNd5l-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A72)
+
+
+
