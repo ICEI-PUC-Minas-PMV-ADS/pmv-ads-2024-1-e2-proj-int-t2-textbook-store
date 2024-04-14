@@ -56,3 +56,7 @@ Abaixo podem ser visualizados os wirframes de tolas as telas previstas no sistem
 
 ![Tela de editar perfil do usuário](img/wireframes/Editar%20Perfil.png)
 
+### Tela - Cadastrar Anúncio
+
+![Tela de cadastrar anúncio](img/wireframes/Cadastrar%20Anuncio.png)
+
