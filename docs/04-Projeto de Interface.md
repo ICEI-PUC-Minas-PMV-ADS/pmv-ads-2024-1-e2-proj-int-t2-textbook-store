@@ -42,3 +42,8 @@ Abaixo podem ser visualizados os wirframes de tolas as telas previstas no sistem
 ### Tela de recuperar senha
 
 ![Tela de recuperar senha](img/wireframes/Recuperar%20senha.png)
+
+### Tela de recuperar senha - após confirmação no e-mail
+
+![Tela de recuperar senha - após confirmação no email](img/wireframes/Recuperar%20senha%20-%20pós%20link.png)
+
