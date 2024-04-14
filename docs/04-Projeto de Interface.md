@@ -64,3 +64,7 @@ Abaixo podem ser visualizados os wirframes de tolas as telas previstas no sistem
 
 ![Tela - Detalhes do Anúncio](img/wireframes//Detalhes%20do%20anuncio.png)
 
+### Tela - Editar Anúncio
+
+![Tela - Editar Anúncio](img/wireframes/Editar%20Anuncio.png)
+
