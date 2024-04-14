@@ -31,19 +31,24 @@ Abaixo podem ser visualizados os wirframes de tolas as telas previstas no sistem
 
 ![Home Page - usuário logado](img/wireframes/Home%20-%20Logado.png)
 
-### Tela de cadastro
+### Tela - Cadastro
 
 ![Tela de cadastro](img/wireframes/Cadastro.png)
 
-### Tela de login
+### Tela - Login
 
 ![Tela de login](img/wireframes/Login.png)
 
-### Tela de recuperar senha
+### Tela - Recuperar senha
 
 ![Tela de recuperar senha](img/wireframes/Recuperar%20senha.png)
 
-### Tela de recuperar senha - após confirmação no e-mail
+### Tela - Recuperar Senha (após confirmação no e-mail)
 
 ![Tela de recuperar senha - após confirmação no email](img/wireframes/Recuperar%20senha%20-%20pós%20link.png)
+
+
+### Tela - Perfil do Usuário
+
+![Tela de perfil do usuário](img/wireframes/Perfil%20do%20Usuário.png)
 
