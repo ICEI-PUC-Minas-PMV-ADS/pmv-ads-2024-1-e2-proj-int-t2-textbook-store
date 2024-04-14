@@ -34,3 +34,11 @@ Abaixo podem ser visualizados os wirframes de tolas as telas previstas no sistem
 ### Tela de cadastro
 
 ![Tela de cadastro](img/wireframes/Cadastro.png)
+
+### Tela de login
+
+![Tela de login](img/wireframes/Login.png)
+
+### Tela de recuperar senha
+
+![Tela de recuperar senha](img/wireframes/Recuperar%20senha.png)
