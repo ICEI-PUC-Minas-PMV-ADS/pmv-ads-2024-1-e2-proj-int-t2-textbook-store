@@ -52,3 +52,7 @@ Abaixo podem ser visualizados os wirframes de tolas as telas previstas no sistem
 
 ![Tela de perfil do usuário](img/wireframes/Perfil%20do%20Usuário.png)
 
+### Tela - Editar Perfil do Usuário
+
+![Tela de editar perfil do usuário](img/wireframes/Editar%20Perfil.png)
+
