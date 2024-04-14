@@ -18,15 +18,60 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Abaixo podem ser visualizados os wirframes de tolas as telas previstas no sistema. Caso prefira, pode acessar a versão interativa através do link:
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+- [EducaLivros - Wireframe Interativo](https://www.figma.com/proto/H3OU6AnfsqjSQkUY60Dpqp/EducaLivros-Wireframe?type=design&node-id=3-72&t=m96yDdyi525sNd5l-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A72)
+
+
+### Home Page - visitante
+
+![Home Page - Visitantes](img/wireframes/Home%20Page.png)
+
+### Home Page - usuário logado
+
+![Home Page - usuário logado](img/wireframes/Home%20-%20Logado.png)
+
+### Tela - Cadastro
+
+![Tela de cadastro](img/wireframes/Cadastro.png)
+
+### Tela - Login
+
+![Tela de login](img/wireframes/Login.png)
+
+### Tela - Recuperar senha
+
+![Tela de recuperar senha](img/wireframes/Recuperar%20senha.png)
+
+### Tela - Recuperar Senha (após confirmação no e-mail)
+
+![Tela de recuperar senha - após confirmação no email](img/wireframes/Recuperar%20senha%20-%20pós%20link.png)
+
+
+### Tela - Perfil do Usuário
+
+![Tela de perfil do usuário](img/wireframes/Perfil%20do%20Usuário.png)
+
+### Tela - Editar Perfil do Usuário
+
+![Tela de editar perfil do usuário](img/wireframes/Editar%20Perfil.png)
+
+### Tela - Cadastrar Anúncio
+
+![Tela de cadastrar anúncio](img/wireframes/Cadastrar%20Anuncio.png)
+
+### Tela - Detalhes do Anúncio
+
+![Tela - Detalhes do Anúncio](img/wireframes//Detalhes%20do%20anuncio.png)
+
+### Tela - Editar Anúncio
+
+![Tela - Editar Anúncio](img/wireframes/Editar%20Anuncio.png)
+
+### Tela - Chats do Usuário
+
+![Tela - Chats do Usuário](img/wireframes/Chats%20do%20usuário.png)
+
+### Tela - Chat com Outro Usuário
+
+![Tela - Chat com Outro Usuário](img/wireframes/Chat%20com%20usuário%20especifico.png)
