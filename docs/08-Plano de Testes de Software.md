@@ -39,5 +39,5 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se os dados do usuário, bem como as listas de seus anúncios e favoritos, são exibidos corretamente na página de perfil. |
 | Passos 	| Passo 01 - Efetuar o login com um usuário válido.<br>Passo 02 - Navegar até a página de perfil do usuário.<br>Passo 03 - Verificar se os dados do usuário (como nome, e-mail, etc.) estão sendo exibidos corretamente <br>Passo 04 - Verificar se há uma seção "Meus Anúncios" que lista os anúncios do usuário.<br>Passo 05 - Verificar se há uma seção "Meus Favoritos" que lista os anúncios favoritos do usuário.
 |
-|Critério de Êxito |Todos os dados do usuário devem ser exibidos corretamente, e as listas de anúncios e favoritos devem estar atualizadas e funcionando conforme esperado. | 
+|Critério de Êxito |Todos os dados do usuário devem ser exibidos corretamente, e as listas de anúncios e favoritos devem estar atualizadas e funcionando conforme esperado.| 
 >
