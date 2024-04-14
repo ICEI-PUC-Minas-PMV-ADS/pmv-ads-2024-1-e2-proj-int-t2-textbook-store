@@ -72,3 +72,6 @@ Abaixo podem ser visualizados os wirframes de tolas as telas previstas no sistem
 
 ![Tela - Chats do Usuário](img/wireframes/Chats%20do%20usuário.png)
 
+### Tela - Chat com Outro Usuário
+
+![Tela - Chat com Outro Usuário](img/wireframes/Chat%20com%20usuário%20especifico.png)
