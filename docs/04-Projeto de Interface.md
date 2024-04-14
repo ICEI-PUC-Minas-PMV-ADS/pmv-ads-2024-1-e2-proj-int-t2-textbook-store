@@ -27,3 +27,6 @@ Abaixo podem ser visualizados os wirframes de tolas as telas previstas no sistem
 
 ![Home Page - Visitantes](img/wireframes/Home%20Page.png)
 
+### Home Page - usuário logado
+
+![Home Page - usuário logado](img/wireframes/Home%20-%20Logado.png)
