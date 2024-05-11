@@ -1,20 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recover Password</title>
-  <link rel="stylesheet" href="novasenha.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Educa Livros</title>
+<style>
+  /* Estilos CSS existentes */
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .logo h1 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .slogan {
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+  nav {
+    display: flex;
+    margin-left: 50px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  .btn {
+    padding: 12px 20px; /* Aumenta o padding */
+    background-color: #333; /* Alterado para preto */
+    color: #fff; /* Alterado para branco */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem; /* Aumenta o tamanho do texto */
+  }
+  .bttn {
+    padding: 12px 20px; /* Aumenta o padding */
+    background-color: #b9b9b9; /* Alterado para preto */
+    color: #000000; /* Alterado para branco */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem; /* Aumenta o tamanho do texto */
+  }
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Altura da tela menos a altura do cabeçalho */
+  }
+  .login-box {
+    width: 400px; /* Largura aumentada para 400px */
+    padding: 20px;
+    background-color: #4CAF50; /* Cor de fundo verde */
+    border-radius: 10px;
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-top: 20px; /* Adiciona espaço acima do container de login */
+  }
+  .login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .login-box .btnn,
+  .login-box .bttn {
+    display: block; /* Transforma os links em elementos de bloco */
+    margin-bottom: 10px; /* Adiciona espaço entre os links */
+    text-align: center; /* Centraliza o texto */
+  }
+  .login-box h2 {
+    font-weight: bold; /* Torna o texto negrito */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+  }
+</style>
 </head>
 <body>
-  <div class="container">
-    <img src="logo.png" alt="Logo" class="logo">
+
+  <header>
+    <div class="logo">
+      <img src="caminho-para-sua-imagem.jpg" alt="Logo">
+      <div>
+        <h1>Educa Livros</h1>
+        <div class="slogan">Facilitando o Acesso aos Livros Escolares</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Anúncios</a>
+      <a href="#">Quem Somos</a>
+      <a href="#" class="btn">Login / Cadastro</a>
+    </nav>
+  </header>
+
+<div class="login-container">
+  <div class="login-box">
+    <h1><strong>Acesse sua conta</strong></h1>
     <form>
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
-      <button type="submit">Recover Password</button>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="senha">Senha:</label><br>
+      <input type="password" id="senha" name="senha"><br>
+      <input type="submit" value="Fazer login" class="btn"><br>
     </form>
-    <p>Remember your password? <a href="login.html">Login</a></p>
+    <a href="#" class="btnn" style="color: black;">Esqueci a senha</a><br>
+    <a href="#" class="bttn">Ainda não tem conta? Cadastre-se</a>
   </div>
+</div>
+
 </body>
 </html>
