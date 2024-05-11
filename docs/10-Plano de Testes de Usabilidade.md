@@ -35,4 +35,21 @@ Para cada voluntário, o registro será feito no seguinte formato:
 |--------|-------|---------|---------|------------------------|-----------------------|
 | T-XX   | 00:00 |   X     |   X     |     1 a 5              |  feedback-transcrição |
 
+
+Além dos critérios de avaliação acima, apresentaremos ao final um questionário a fim de mapear elementos gerais de usabilidade do sistema não atrelados a uma funcionalidade específica. Esse questionário consiste em avaliar, em uma escala de 1 a 10, o quanto o usuário concorda com algumas afirmativas que se mapeiam para elementos das heuristicas de Nielsen:
+
+| Afirmação avaliada                                                                | heuristica correspondente                      |
+| ----------------------------------------------------------------------------------| ---------------------------------------------- |
+| As ações foram simples de se executar                                             | Visibilidade do Status do Sistema              |
+| Encontrei com facilidade os elementos na tela para fazer o que eu gostaria        | Visibilidade do Status do Sistema              |
+| Ao ver um ícone no sistema, seu sentifdo era nítido para mim                      | Compatibilidade entre o sistema e o mundo real |
+| Ao realizar uma açõa indesejada, foi fácil retornar para o que queria             | Controle e liberdade para o usuário            | 
+| Ao navegar entre várias páginas, o estilo se mantinha                             | Consistência e Padronização                    |
+| O sistema apresentou mensagens amigáveis de confirmação ao executar alguma ação   | Prevenção de erros                             |
+| O sentido de elementos como botões e ícones me era familiar                       | Reconhecimento em vez de memorização           |
+| Mesmo sem ter utilizado o sistema antes, foi intuitivo fazer o que eu queria      | Eficiência e flexibilidade de uso              |
+| A quantidade de informações e elementos em cada tela estava adequada, sem exageros| Estética e design minimalista                  |
+| Ao preencher alguma informação incorreta, foi fácil exergar o erro                | Diagnostico e recuperação de erros             |
+| Instruções de uso eram facilmente localizadas                                     | Ajuda e documentação                           |
+
 Os registros podem ser consultados no [Registro de Testes de Usabilidade](./11-Registro%20de%20Testes%20de%20Usabilidade.md)
