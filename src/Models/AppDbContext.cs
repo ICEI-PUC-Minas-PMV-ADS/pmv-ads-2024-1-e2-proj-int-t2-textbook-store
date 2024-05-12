@@ -14,4 +14,6 @@ public class AppDbContext : DbContext
     public DbSet<Avaliacao> Avaliacoes { get; set; }
 
     public DbSet<Chat> Chats { get; set; }
+
+    public DbSet<Mensagem> Mensagens { get; set; }
 }
