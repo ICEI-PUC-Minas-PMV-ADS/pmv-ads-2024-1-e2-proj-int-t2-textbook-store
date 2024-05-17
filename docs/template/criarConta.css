@@ -39,14 +39,6 @@ body, html {
     margin-right: 20px;
     font-weight: bold;
   }
-  .btn {
-    padding: 12px 20px;
-    background-color: #18384F;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-  }
   .bttn {
     padding: 12px 20px;
     background-color: #b9b9b9;
@@ -86,6 +78,16 @@ body, html {
     font-weight: bold;
     margin-bottom: 20px;
   }
-  #senha, #password{
+
+  .btn {
+    padding: 12px 20px;
+    background-color: #18384F;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+
+  #email, #senha, #nome, #confirmarSenha{
     border-radius: 10px;
   }
