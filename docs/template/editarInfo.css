@@ -4,8 +4,8 @@ body, html {
     height: 100%;
   }
   header {
-    background-color: #333;
-    color: #fff;
+    background-color: #baf0fa;
+    color: black;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -34,24 +34,17 @@ body, html {
     margin-left: 50px;
   }
   nav a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     margin-right: 20px;
     font-weight: bold;
   }
-  .bttn {
-    padding: 12px 20px;
-    background-color: #b9b9b9;
-    color: #000000;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-  }
+  
   .login-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 60px);
+    margin-bottom: 20px;
   }
   .login-box {
     width: 400px;
@@ -152,4 +145,24 @@ body, html {
     padding: 20px;
     box-sizing: border-box;
     background-color: #f0f0f0;
+  }
+
+  .logoETitulo {
+    align-items: center;
+    display: flex;
+  }
+  .logoETitulo img {
+    margin-right: 20px;
+  }
+
+  .botao{
+    border-radius: 6px;
+    margin-left: 10px;
+    background-color: #68d05d;
+  }
+
+  .textoRodape {
+    display: inline-block;
+    width: 90%;
+    font-size: 12px;
   }
