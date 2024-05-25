@@ -25,6 +25,11 @@ namespace EducaLivros.Controllers
             return View(await _context.Usuarios.ToListAsync());
         }
 
+        public IActionResult Home()
+        {
+            return View();
+        }
+
         // GET: Usuario/Details/5
         public async Task<IActionResult> Details(int? id)
         {

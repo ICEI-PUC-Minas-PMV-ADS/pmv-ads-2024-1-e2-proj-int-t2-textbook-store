@@ -1,22 +1,25 @@
 @model EducaLivros.Models.Usuario
 
+@section css {
+    <link rel="stylesheet" href="~/css/criarConta.css">
+}
+
 @{
     ViewData["Title"] = "Create";
 }
 
-@if (User.IsInRole("Administrador"))
-{
-    <h1>Cadastre um novo usuário</h1>
-}
-else
-{
-    <h1>Crie a sua conta</h1>
-
-    <h4>É rápido e fácil</h4>
-}
 <hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="login-container">
+    <div class="login-box">
+        @if (User.IsInRole("Administrador"))
+        {
+            <h1>Cadastre um novo usuário</h1>
+        }
+        else
+        {
+            <h1><strong>Crie a sua conta</strong></h1>
+
+        }
         <form asp-action="Cadastrar">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -48,16 +51,16 @@ else
             </div>
         </form>
         <p class="text text-danger">@ViewBag.Error</p>
+        @if (User.IsInRole("Administrador"))
+        {
+            <div>
+                <a asp-action="Index">Todos os usuários</a>
+            </div>
+
+        }
     </div>
 </div>
 
-@if (User.IsInRole("Administrador"))
-{
-    <div>
-        <a asp-action="Index">Todos os usuários</a>
-    </div>
-
-}
 
 @section Scripts {
     @{
