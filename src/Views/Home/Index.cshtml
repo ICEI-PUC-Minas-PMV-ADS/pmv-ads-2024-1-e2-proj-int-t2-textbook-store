@@ -5,4 +5,20 @@
 <div class="text-center">
     <h1 class="display-4">Boas Vindas à Educa Livros</h1>
     <p>Facilitando o Acesso aos Livros Escolares.</p>
+    @if (User.Identity.IsAuthenticated)
+    {
+        if (User.IsInRole("Administrador"))
+        {
+            <p>Olá, @User.Identity.Name! Você é um administrador.</p>
+        }
+        else
+        {
+            <p>Olá, @User.Identity.Name!</p>
+        }
+    }
+    else
+    {
+        <p>Olá, visitante!</p>
+    }
+    <p>@ViewBag.Message</p>
 </div>

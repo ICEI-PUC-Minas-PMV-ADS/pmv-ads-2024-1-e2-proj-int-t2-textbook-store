@@ -1,14 +1,14 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using EducaLivros.Models;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
-namespace EducaLivros
+namespace EducaLivros.Controllers
 {
+
+    [Authorize]
     public class UsuarioController : Controller
     {
         private readonly AppDbContext _context;
@@ -19,6 +19,7 @@ namespace EducaLivros
         }
 
         // GET: Usuario
+        [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Usuarios.ToListAsync());
@@ -42,28 +43,89 @@ namespace EducaLivros
             return View(usuario);
         }
 
+        [AllowAnonymous]
         // GET: Usuario/Create
-        public IActionResult Create()
+        public IActionResult Cadastrar()
         {
+            if (User.IsInRole("Usuario"))
+            {
+                return Redirect("/");
+            }
             return View();
         }
 
-        // POST: Usuario/Create
+        // POST: Usuario/Cadastrar
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Email,Senha")] Usuario usuario)
+        public async Task<IActionResult> Cadastrar([Bind("Id,Nome,Email,Senha,Tipo")] Usuario usuario)
         {
+            if (User.IsInRole("Usuario"))
+            {
+                return Redirect("/");
+            }
             if (ModelState.IsValid)
             {
+                var existingUser = _context.Usuarios.FirstOrDefault(u => u.Email == usuario.Email);
+                if (existingUser != null)
+                {
+                    ViewBag.Error = "E-mail em uso.";
+                    return View();
+                }
                 usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Login", "Usuario");
             }
             return View(usuario);
         }
+
+        [AllowAnonymous]
+        public IActionResult Login()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                return Redirect("/");
+            }
+            return View();
+        }
+
+        [AllowAnonymous]
+        [HttpPost]
+        public async Task<IActionResult> Login(Usuario usuario)
+        {
+            var usuarioDb = await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == usuario.Email);
+            if (usuarioDb == null || !BCrypt.Net.BCrypt.Verify(usuario.Senha, usuarioDb.Senha))
+            {
+                ViewBag.Erro = "Usuário ou senha inválidos";
+                return View();
+            }
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, usuarioDb.Nome),
+                new Claim(ClaimTypes.NameIdentifier, usuarioDb.Id.ToString()),
+                new Claim(ClaimTypes.Email, usuarioDb.Email),
+                new Claim(ClaimTypes.Role, usuarioDb.Tipo.ToString())
+            };
+            var usuarioIdentity = new ClaimsIdentity(claims, "login");
+            ClaimsPrincipal principal = new ClaimsPrincipal(usuarioIdentity);
+            var props = new AuthenticationProperties
+            {
+                ExpiresUtc = DateTime.UtcNow.ToLocalTime().AddHours(2),
+                IsPersistent = true
+            };
+            await HttpContext.SignInAsync(principal, props);
+            return RedirectToAction("Index", "Home");
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Login", "Usuario");
+        }
+
 
         // GET: Usuario/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -72,6 +134,7 @@ namespace EducaLivros
             {
                 return NotFound();
             }
+
             var usuario = await _context.Usuarios.FindAsync(id);
             if (usuario == null)
             {
@@ -85,7 +148,7 @@ namespace EducaLivros
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Email,Senha")] Usuario usuario)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Email,Senha,Tipo")] Usuario usuario)
         {
             if (id != usuario.Id)
             {

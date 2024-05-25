@@ -20,4 +20,12 @@ public class Usuario
     [Required(ErrorMessage = "É obrigatório informar a senha")]
     [MinLength(6, ErrorMessage = "A senha deve ter no mínimo 6 caracteres")]
     public string Senha { get; set; }
+
+    public TipoUsuario Tipo { get; set; } = TipoUsuario.Usuario;
+}
+
+public enum TipoUsuario
+{
+    Administrador,
+    Usuario
 }
