@@ -44,7 +44,7 @@ namespace EducaLivros.Controllers
         }
 
         [AllowAnonymous]
-        // GET: Usuario/Create
+        // GET: Usuario/Cadastrar
         public IActionResult Cadastrar()
         {
             if (User.IsInRole("Usuario"))
@@ -71,7 +71,7 @@ namespace EducaLivros.Controllers
                 var existingUser = _context.Usuarios.FirstOrDefault(u => u.Email == usuario.Email);
                 if (existingUser != null)
                 {
-                    ViewBag.Error = "E-mail em uso.";
+                    ViewBag.Error = "E-mail já cadastrado.";
                     return View();
                 }
                 usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
