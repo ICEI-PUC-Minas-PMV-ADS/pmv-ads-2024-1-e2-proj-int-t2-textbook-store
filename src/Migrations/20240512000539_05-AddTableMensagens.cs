@@ -34,7 +34,7 @@ namespace EducaLivros.Migrations
                         column: x => x.UsuarioId,
                         principalTable: "usuarios",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.NoAction);
                 });
 
             migrationBuilder.CreateIndex(
