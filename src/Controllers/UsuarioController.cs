@@ -57,6 +57,7 @@ namespace EducaLivros
         {
             if (ModelState.IsValid)
             {
+                usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -71,7 +72,6 @@ namespace EducaLivros
             {
                 return NotFound();
             }
-
             var usuario = await _context.Usuarios.FindAsync(id);
             if (usuario == null)
             {
@@ -96,6 +96,7 @@ namespace EducaLivros
             {
                 try
                 {
+                    usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
                     _context.Update(usuario);
                     await _context.SaveChangesAsync();
                 }
